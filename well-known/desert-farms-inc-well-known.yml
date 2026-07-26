@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: live probe of https://desertfarms.com/.well-known/*
+host: https://desertfarms.com
+note: >-
+  desertfarms.com is a Shopify-hosted storefront. The openid-configuration and
+  oauth-authorization-server documents are served by Shopify's Customer Account
+  API (issuer https://shopify.com/authentication/99048620351) for storefront
+  customer login, not a first-party Desert Farms developer API.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: desert-farms-inc-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: desert-farms-inc-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

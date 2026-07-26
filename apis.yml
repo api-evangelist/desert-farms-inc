@@ -1,8 +1,30 @@
 aid: desert-farms-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/desert-farms-inc.png
 name: DESERT FARMS INC.
-description: DESERT FARMS INC. is a company surfaced as a portfolio company of 500-global and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Desert Farms Inc. is a direct-to-consumer camel milk brand founded in 2013 by Walid
+  Abdul-Wahab and headquartered in Santa Monica, California. The company sources 100%
+  pure camel milk from a network of small family-owned camel dairies across the United
+  States and sells raw and pasteurized camel milk, frozen and powdered camel milk, plus
+  camel-milk-based soaps and skincare, direct to consumers through its Shopify storefront
+  at desertfarms.com and through select retail grocers. Backed by 500 Global, Desert Farms
+  is a consumer packaged goods and e-commerce company rather than an API provider; it
+  exposes no first-party developer API. Its public web surface runs on Shopify, whose
+  Customer Account API OpenID Connect discovery documents are served on the storefront
+  domain for customer login. This profile was added to the API Evangelist network as a
+  portfolio-lead stub and enriched with the domain-security, well-known, and site
+  link-property signals that are genuinely present.
 url: https://raw.githubusercontent.com/api-evangelist/desert-farms-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,9 +34,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Camel Milk
+- Consumer Packaged Goods
+- E-Commerce
+- Food and Beverage
+- Direct to Consumer
+- Shopify
+- Retail
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,3 +53,20 @@ maintainers:
 common:
 - type: Website
   url: https://desertfarms.com
+- type: Blog
+  url: https://desertfarms.com/blogs/news
+- type: Support
+  url: https://desertfarms.com/pages/contact
+- type: PrivacyPolicy
+  url: https://desertfarms.com/policies/privacy-policy
+- type: TermsOfService
+  url: https://desertfarms.com/policies/terms-of-service
+- type: DomainSecurity
+  url: security/desert-farms-inc-domain-security.yml
+- type: WellKnown
+  url: well-known/desert-farms-inc-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
