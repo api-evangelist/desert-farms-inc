@@ -1,0 +1,20 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/desert-farms-inc/integrations
+- https://zapier.com/apps/desert-farms/integrations
+- https://n8n.io/integrations/desert-farms-inc/
+- https://n8n.io/integrations/desert-farms/
+- https://composio.dev/toolkits/desert-farms-inc
+- https://monid.ai/tools/desert-farms-inc
+checked:
+- https://composio.dev/toolkits/desert-farms-inc
+- https://monid.ai/tools/desert-farms-inc
+- https://n8n.io/integrations/desert-farms-inc/
+- https://n8n.io/integrations/desert-farms/
+- https://zapier.com/apps/desert-farms-inc/integrations
+- https://zapier.com/apps/desert-farms/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
