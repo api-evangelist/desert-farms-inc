@@ -1,4 +1,4 @@
-# DESERT FARMS INC.
+# DESERT FARMS
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-DESERT FARMS INC. is a company surfaced as a portfolio company of 500-global and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Desert Farms Inc. is a direct-to-consumer camel milk brand founded in 2013 by Walid Abdul-Wahab and headquartered in Santa Monica, California. The company sources 100% pure camel milk from a network of small family-owned camel dairies across the United States and sells raw and pasteurized camel milk, frozen and powdered camel milk, plus camel-milk-based soaps and skincare, direct to consumers through its Shopify storefront at desertfarms.com and through select retail grocers. Backed by 500 Global, Desert Farms is a consumer packaged goods and e-commerce company rather than an API provider; it exposes no first-party developer API. Its public web surface runs on Shopify, whose Customer Account API OpenID Connect discovery documents are served on the storefront domain for customer login. This profile was added to the API Evangelist network as a portfolio-lead stub and enriched with the domain-security, well-known, and site link-property signals that are genuinely present.
 
-Backed by: 500-global — https://desertfarms.com
+**Areas:** Company · Camel Milk · Consumer Packaged Goods · E-Commerce · Food and Beverage · Direct to Consumer · Shopify · Retail
+
+## DESERT FARMS on APIs.io
+
+Everything profiled for DESERT FARMS is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/desert-farms-inc/](https://apis.io/providers/desert-farms-inc/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Desert Farms Inc Domain Security](https://apis.io/security/desert-farms-inc/desert-farms-inc-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://desertfarms.com)
+- [Support](https://desertfarms.com/pages/contact)
+- [Blog](https://desertfarms.com/blogs/news)
+- [Terms of service](https://desertfarms.com/policies/terms-of-service)
+- [Privacy policy](https://desertfarms.com/policies/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 11.1** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 21.1 |
+
+**Agent readiness 10.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/desert-farms-inc/](https://apis.io/providers/desert-farms-inc/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for DESERT FARMS: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/desert-farms-inc/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
